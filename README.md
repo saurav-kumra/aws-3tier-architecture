@@ -1,4 +1,4 @@
 
-# AWS 3 Tier Architecture Project
+# aws-3tier-architecture
+AWS 3 Tier Architecture Project using EC2, ALB, ASG, Aurora
 
-This project demonstrates a production-style AWS 3-tier architecture using AWS services.
