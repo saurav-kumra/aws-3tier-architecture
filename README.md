@@ -1,11 +1,47 @@
 # AWS 3-Tier Architecture Project
 
-This project is a hands-on implementation of a production-style AWS 3-tier architecture.
+# AWS 3-Tier Architecture Project
 
-I built this project to understand how real-world applications are deployed securely and in a scalable way on AWS.
+A production-style AWS 3-tier web application architecture built using AWS core services.
 
-The architecture includes frontend, backend, and database layers, each separated into different tiers for security and better management.
+This project demonstrates how to design and deploy a secure, scalable, and highly available application infrastructure using:
 
+- Amazon VPC
+- EC2
+- Application Load Balancer (ALB)
+- Auto Scaling Group (ASG)
+- Amazon Aurora MySQL
+- NAT Gateway
+- Internet Gateway
+- IAM Roles
+- AWS Systems Manager (SSM)
+- Nginx
+- React Frontend
+- Node.js Backend
+
+This project follows real-world cloud architecture principles with public and private subnet separation, secure internal communication, and high availability across multiple Availability Zones.
+
+## Tech Stack
+
+Frontend:
+- React
+- Nginx
+
+Backend:
+- Node.js
+- Express.js
+- PM2
+
+Cloud:
+- AWS EC2
+- AWS VPC
+- ALB
+- Auto Scaling
+- Aurora MySQL
+- IAM
+- SSM
+- NAT Gateway
+- Internet Gateway
 ---
 
 ## What I Built
@@ -191,3 +227,29 @@ From this project I learned:
 ## Final Result
 
 Successfully deployed a working AWS 3-tier web application architecture.
+
+## Screenshots
+
+### Frontend Running
+![Frontend](screenshots/frontend-running.jpg)
+
+### Load Balancers
+![Load Balancer](screenshots/load-balancers.jpg)
+
+### Aurora Database
+![Aurora](screenshots/aurora-db1.jpg)
+
+### VPC Architecture
+![VPC](screenshots/vpc-subnet-map.jpg)
+
+### Security Groups
+![Security Groups](screenshots/security-group.jpg)
+
+### Auto Scaling Group
+![ASG](screenshots/app-asg.jpg)
+
+### AMI / Launch Template
+![AMI](screenshots/app-ami-ec2.jpg)
+
+### IAM Role
+![IAM Role](screenshots/role.jpg)
